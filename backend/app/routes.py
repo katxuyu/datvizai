@@ -274,7 +274,7 @@ def generate_graph():
 
     logger.info("Processing request to generate graph.")
     data = request.json
-    logger.debug(f"Received request payload: {json.dumps(data, indent=2)}")
+    # logger.debug(f"Received request payload: {json.dumps(data, indent=2)}")
 
     uuid = data.get('uuid')
     prompt = data.get('prompt')

@@ -11,7 +11,7 @@ def setup_logging():
     Configures logging for the application, with log rotation every hour.
     """
     logger = logging.getLogger('app_logger')
-    logger.setLevel(logging.INFO)
+    logger.setLevel(logging.DEBUG)
 
     # Create a timed rotating file handler
     handler = TimedRotatingFileHandler(
