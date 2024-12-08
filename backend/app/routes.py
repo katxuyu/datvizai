@@ -10,6 +10,7 @@ from .helpers.file_helper import validate_csv_file, parse_csv, get_file_statisti
 import pandas as pd
 import plotly.utils
 import json
+from functools import wraps
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
@@ -19,8 +20,28 @@ main_bp = Blueprint('main', __name__)
 # Initialize the database
 db = Database()
 
+# Load AUTH_TOKEN from environment
+AUTH_TOKEN = os.getenv("AUTH_TOKEN")
+
+def token_required(f):
+    """
+    Decorator to ensure the request contains a valid authorization token.
+    """
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        logger.debug(f)
+        token = request.headers.get('Authorization')
+        if not token:
+            logger.error("Authorization token missing.")
+            return jsonify({'error': 'Authorization token is required.'}), 401
+        if token != f"Bearer {AUTH_TOKEN}":
+            logger.error(f"Invalid authorization token. {AUTH_TOKEN}")
+            return jsonify({'error': 'Invalid authorization token.'}), 403
+        return f(*args, **kwargs)
+    return decorated_function
 
 @main_bp.route('/upload', methods=['POST'])
+@token_required
 def upload_files():
     """
     Processes multiple CSV files in memory, validates their format,
@@ -145,6 +166,7 @@ def upload_files():
 
 
 @main_bp.route('/user/register', methods=['POST'])
+@token_required
 def register_user():
     """
     Registers a user based on email and public IP.
@@ -206,6 +228,7 @@ def register_user():
 
 
 @main_bp.route('/user/check', methods=['POST'])
+@token_required
 def check_user():
     """
     Checks if a user exists based on their hashed public IP.
@@ -241,6 +264,7 @@ def check_user():
 
 
 @main_bp.route('/generate_graph', methods=['POST'])
+@token_required
 def generate_graph():
     """
     Generates a list of Plotly graph JSON objects and metadata directly using OpenAI based on the user prompt and input data.

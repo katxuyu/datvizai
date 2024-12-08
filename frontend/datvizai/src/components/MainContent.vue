@@ -56,6 +56,7 @@
 import { getPublicIP } from "@/utils/getPublicIP"; // Utility to fetch public IP
 import Notification from "@/components/Notification.vue";
 
+
 export default {
   name: "MainContent",
   components: { Notification },
@@ -81,6 +82,7 @@ export default {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
+            "Authorization": `Bearer ${import.meta.env.VITE_API_AUTH_TOKEN}`,
           },
           body: JSON.stringify({ public_ip: publicIP }),
         });
@@ -140,6 +142,7 @@ export default {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
+              "Authorization": `Bearer ${import.meta.env.VITE_API_AUTH_TOKEN}`,
             },
             body: JSON.stringify({
               email: this.email,

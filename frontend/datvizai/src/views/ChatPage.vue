@@ -43,7 +43,19 @@ import InteractiveBackground from "@/components/InteractiveBackground.vue";
 import ChatBox from "@/components/ChatBox.vue";
 import UploadModal from "@/components/UploadModal.vue";
 import axios from "axios";
-import Plotly from 'plotly.js-dist';
+
+// Add Axios interceptor to include Authorization header
+axios.interceptors.request.use(
+  (config) => {
+    // Add the Authorization header to every request
+    config.headers.Authorization = `Bearer ${import.meta.env.VITE_API_AUTH_TOKEN}`;
+    return config;
+  },
+  (error) => {
+    // Handle request errors
+    return Promise.reject(error);
+  }
+);
 
 export default {
   name: "ChatPage",

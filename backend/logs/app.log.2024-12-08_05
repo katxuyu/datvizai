@@ -1,63 +1,22 @@
-2024-12-08 06:41:32,368 - INFO - database:21 - Database instance created. [Request ID: 7f5c3d77507f4e41855907cf637d5d3c]
-2024-12-08 06:44:04,108 - INFO - database:21 - Database instance created. [Request ID: db24f1660b274cdd8b6ed1acda3b03e1]
-2024-12-08 06:44:05,883 - INFO - database:21 - Database instance created. [Request ID: 4713771dc3584241982b6dd773f7aa56]
-2024-12-08 06:44:18,709 - ERROR - routes:34 - Authorization token missing. [Request ID: 9bac44ce8cc64070936101e47400796a]
-2024-12-08 06:44:27,098 - ERROR - routes:37 - Invalid authorization token. [Request ID: 5fb42f6fdaaf4224a7d355d7f877a32c]
-2024-12-08 06:45:17,578 - INFO - database:21 - Database instance created. [Request ID: 1396204baf6c4dc6b2a21594715e177f]
-2024-12-08 06:45:39,258 - DEBUG - routes:32 - Authenticating [Request ID: aa473976a509480ca0662d682c184bc0]
-2024-12-08 06:45:39,261 - ERROR - routes:35 - Authorization token missing. [Request ID: 1e011b1167444d418aece4b77b714e67]
-2024-12-08 06:45:42,012 - DEBUG - routes:32 - Authenticating [Request ID: 64873c4cd65d498d8cb6fed3b457ae81]
-2024-12-08 06:45:42,013 - ERROR - routes:38 - Invalid authorization token. [Request ID: 0f38b2d4ae1e4364a18d85596068d8a5]
-2024-12-08 06:45:59,337 - DEBUG - routes:32 - Authenticating [Request ID: 200390e619c6430d9152c8e499e373bf]
-2024-12-08 06:45:59,338 - ERROR - routes:35 - Authorization token missing. [Request ID: 3708d825ac1d4a63ab4322095a0e6644]
-2024-12-08 06:46:19,458 - INFO - database:21 - Database instance created. [Request ID: 4281dbe011124b10b039f812737ff127]
-2024-12-08 06:46:21,329 - INFO - database:21 - Database instance created. [Request ID: 07e25bda0cf24f5e855e3778b9dd02f8]
-2024-12-08 06:46:23,982 - DEBUG - routes:32 - Authenticating [Request ID: 16deb217aeb246218ee2d5259f0ce5e9]
-2024-12-08 06:46:23,982 - ERROR - routes:35 - Authorization token missing. [Request ID: 573ec7444c6147589262ce5ac347286e]
-2024-12-08 06:46:46,974 - DEBUG - routes:32 - Authenticating [Request ID: c91be83ac6a24d038fff7f4d20f7071e]
-2024-12-08 06:46:46,974 - ERROR - routes:35 - Authorization token missing. [Request ID: 23d490c9eee84f46baf1d5cb0aa2d723]
-2024-12-08 06:46:53,915 - DEBUG - routes:32 - Authenticating [Request ID: b08f643d35454ca89169ab93308761a4]
-2024-12-08 06:46:53,915 - ERROR - routes:35 - Authorization token missing. [Request ID: 0e418c83dba642e69bf05d42cbe028ca]
-2024-12-08 06:47:44,088 - DEBUG - routes:32 - Authenticating [Request ID: c3e18cf1f97d42a28c18e91649737941]
-2024-12-08 06:47:44,088 - ERROR - routes:35 - Authorization token missing. [Request ID: 5825e16a5aa54fd3a412b847626c94b5]
-2024-12-08 06:48:29,544 - INFO - database:21 - Database instance created. [Request ID: a2cc979c1c81489ea6266adbe56075f0]
-2024-12-08 06:48:31,669 - DEBUG - routes:32 - <function check_user at 0x7fcc4cb01260> [Request ID: a3a57399ca46487d9fb782e338759cb4]
-2024-12-08 06:48:31,669 - ERROR - routes:35 - Authorization token missing. [Request ID: 0226e69711684a22a0e50bfb568e3161]
-2024-12-08 06:53:15,316 - DEBUG - routes:32 - <function check_user at 0x7fcc4cb01260> [Request ID: 0d99a5e3c1d94331bdfc437eb2e50780]
-2024-12-08 06:53:15,316 - ERROR - routes:38 - Invalid authorization token. [Request ID: d744641587744154a22605128f6ea466]
-2024-12-08 06:53:25,709 - DEBUG - routes:32 - <function check_user at 0x7fcc4cb01260> [Request ID: 6411c9408f984a78beac1d839c1fbd46]
-2024-12-08 06:53:25,709 - ERROR - routes:38 - Invalid authorization token. [Request ID: a817b569fdae4747930b40f393905dd4]
-2024-12-08 06:53:48,629 - DEBUG - routes:32 - <function check_user at 0x7fcc4cb01260> [Request ID: f6584df6a8e84284b96b3a00b6714311]
-2024-12-08 06:53:48,629 - ERROR - routes:38 - Invalid authorization token. [Request ID: ee486987ed1243a0b4b6cbfc5e004340]
-2024-12-08 06:53:58,898 - INFO - database:21 - Database instance created. [Request ID: 520b17e76677437b86306cd81e9b5636]
-2024-12-08 06:54:00,622 - INFO - database:21 - Database instance created. [Request ID: fc637ee413a44a3d9725a47eefbbd48a]
-2024-12-08 06:54:54,041 - DEBUG - routes:32 - <function check_user at 0x7f1c804f5260> [Request ID: a3629fce872e4ae6865988ebe710222c]
-2024-12-08 06:54:54,041 - ERROR - routes:38 - Invalid authorization token. [Request ID: 4a108edc6cfd4cefb28260c61a568d9b]
-2024-12-08 06:56:08,286 - DEBUG - routes:32 - <function check_user at 0x7f1c804f5260> [Request ID: 02734bb257f84019b9286edba0cce194]
-2024-12-08 06:56:08,287 - ERROR - routes:38 - Invalid authorization token. [Request ID: 56d961cc71ea4f72bc232f79ea74fe3b]
-2024-12-08 06:57:41,015 - INFO - database:21 - Database instance created. [Request ID: 5b0c6d56eb464e8d977477059e715cc3]
-2024-12-08 06:57:50,284 - INFO - database:21 - Database instance created. [Request ID: 68f18f7c24dd4e9d8d422cada09189c3]
-2024-12-08 06:57:55,279 - INFO - database:21 - Database instance created. [Request ID: 5c4fdf5549304cba9d6c80d346e84d9d]
-2024-12-08 06:57:59,820 - DEBUG - routes:32 - <function check_user at 0x7f93fd5f5260> [Request ID: 20aa0d7b8cd5477690bf8989e5d3d44a]
-2024-12-08 06:57:59,821 - DEBUG - database:27 - Initializing database connection... [Request ID: f50805d922d447aeb8e43cf930f9bbe7]
-2024-12-08 06:58:05,733 - INFO - database:37 - Database connection established. [Request ID: 1c2adb2341fc433fbde2c0ae1a401fd1]
-2024-12-08 06:58:05,733 - DEBUG - database:47 - Executing query: SELECT uuid FROM users WHERE ip = %s | Params: ('895401576ffb3d6a3979adda6eedd361776de6f59194bf854b7f1fbbfd049d75',) [Request ID: 97ba8f01720344a7b4dc5613697b0b8e]
-2024-12-08 06:58:05,937 - DEBUG - database:51 - Query result: [RealDictRow({'uuid': '5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa'})] [Request ID: 934b038f32774d5399ea1eb9411818a9]
-2024-12-08 06:58:05,937 - INFO - routes:255 - Existing user found with IP: 112.202.117.81 [Request ID: 21ee741b23cb4eed9fd313fb0c00e495]
-2024-12-08 06:58:13,767 - DEBUG - routes:32 - <function upload_files at 0x7f93fd5f4ea0> [Request ID: 34864446319048a1a75688138a88cb6b]
-2024-12-08 06:58:13,773 - INFO - routes:59 - Received request to process files in memory. UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa [Request ID: bad91c49b376469fb9336b7859a01524]
-2024-12-08 06:58:13,773 - DEBUG - database:47 - Executing query: SELECT available_credits FROM users WHERE uuid = %s | Params: ('5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa',) [Request ID: 1dd5357345514e3f888160827156b925]
-2024-12-08 06:58:13,874 - DEBUG - database:51 - Query result: [RealDictRow({'available_credits': 3928})] [Request ID: 15a9eae3e0bc4692b68d7f348e73d721]
-2024-12-08 06:58:13,875 - DEBUG - file_helper:64 - File sample_data.csv passed validation. [Request ID: 53dade6ac2404111a0fc1241ed18a0c8]
-2024-12-08 06:58:13,875 - DEBUG - routes:100 - Processing file in memory: sample_data.csv. UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa [Request ID: 90566b37889846289fc20bc3a64d6410]
-2024-12-08 06:58:21,146 - INFO - openai_helper:23 - Token count for the prompt: 628 [Request ID: dd81be9d30784ed7bbe0ca1bf86ffb09]
-2024-12-08 06:58:21,147 - INFO - openai_helper:88 - OpenAI query successful for file: 6.28 sample_data.csv [Request ID: e896df2b37f34435a1c2a125cd0c8cfb]
-2024-12-08 06:58:21,147 - DEBUG - database:47 - Executing query: UPDATE users SET available_credits = %s WHERE uuid = %s | Params: (3921.72, '5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa') [Request ID: 7d93d765901541f18cb1db07a029d5cb]
-2024-12-08 06:58:21,365 - INFO - database:54 - Query executed successfully. [Request ID: 36f1137a721d437eb241f6e79fb26f07]
-2024-12-08 06:58:21,366 - INFO - routes:154 - Credits deducted. UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa, Used: 6.28, Remaining: 3921.72 [Request ID: 26dbfaefb7474caf923c4267cf735ebb]
-2024-12-08 06:58:26,066 - DEBUG - routes:32 - <function generate_graph at 0x7f93fd5f5440> [Request ID: 02b7d9a538434dc1b578fc9fa49b7b6c]
-2024-12-08 06:58:26,067 - INFO - routes:275 - Processing request to generate graph. [Request ID: 8986ee67b9ff413f865d0dbc0cb9f0ad]
-2024-12-08 06:58:26,074 - DEBUG - routes:277 - Received request payload: {
+2024-12-08 05:21:25,047 - INFO - database:21 - Database instance created. [Request ID: 2b976b113dfa4fd6bcbb0565f1a48b0e]
+2024-12-08 05:21:27,422 - INFO - database:21 - Database instance created. [Request ID: 6a485009c21f42ba978d6b78b39d5103]
+2024-12-08 05:23:52,846 - DEBUG - database:27 - Initializing database connection... [Request ID: a11056e48a8644099e3cc6e2c2490e18]
+2024-12-08 05:23:53,706 - INFO - database:37 - Database connection established. [Request ID: 24b80395eebf4e92a1e683a1b51461df]
+2024-12-08 05:23:53,707 - DEBUG - database:47 - Executing query: SELECT uuid FROM users WHERE ip = %s | Params: ('895401576ffb3d6a3979adda6eedd361776de6f59194bf854b7f1fbbfd049d75',) [Request ID: dc8e4fa22b324b04a21a2dfbbd1ef912]
+2024-12-08 05:23:53,908 - DEBUG - database:51 - Query result: [RealDictRow({'uuid': '5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa'})] [Request ID: fd4a04e3fe7e43638d00d537e0d06b80]
+2024-12-08 05:23:53,908 - INFO - routes:232 - Existing user found with IP: 112.202.117.81 [Request ID: 8fc8e9baa6954943b48a71aa7e2a2b51]
+2024-12-08 05:23:58,261 - INFO - routes:38 - Received request to process files in memory. UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa [Request ID: d4a2563722924f70887dbe2de06adc59]
+2024-12-08 05:23:58,261 - DEBUG - database:47 - Executing query: SELECT available_credits FROM users WHERE uuid = %s | Params: ('5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa',) [Request ID: 903caa2f1ff44ca4948266e916df6548]
+2024-12-08 05:23:58,361 - DEBUG - database:51 - Query result: [RealDictRow({'available_credits': 4077})] [Request ID: dfce142cf45a4cce9d865ca55a1c3b87]
+2024-12-08 05:23:58,362 - DEBUG - file_helper:64 - File sample_data.csv passed validation. [Request ID: f93d6d3daf3a49179ce8df43bfb648a9]
+2024-12-08 05:23:58,362 - DEBUG - routes:79 - Processing file in memory: sample_data.csv. UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa [Request ID: 8e6d269ecf3d4bb1b9b8cc9a3ed1cd58]
+2024-12-08 05:24:02,895 - INFO - openai_helper:23 - Token count for the prompt: 628 [Request ID: e993989063524c038cf489acfd9fef7e]
+2024-12-08 05:24:02,896 - INFO - openai_helper:88 - OpenAI query successful for file: 6.28 sample_data.csv [Request ID: 667766ce2be04f0b9f723c6ae415e35c]
+2024-12-08 05:24:02,897 - DEBUG - database:47 - Executing query: UPDATE users SET available_credits = %s WHERE uuid = %s | Params: (4070.72, '5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa') [Request ID: 2c2397b74b584aeeafc90f4b22ab2f3d]
+2024-12-08 05:24:03,103 - INFO - database:54 - Query executed successfully. [Request ID: ccc96560649e4bdf8abb29c532056fe5]
+2024-12-08 05:24:03,103 - INFO - routes:133 - Credits deducted. UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa, Used: 6.28, Remaining: 4070.72 [Request ID: eef5a30479dd4daa96bc934f4261f845]
+2024-12-08 05:24:06,905 - INFO - routes:251 - Processing request to generate graph. [Request ID: dfb8591c662c40a685327ac1c37f974e]
+2024-12-08 05:24:06,919 - DEBUG - routes:253 - Received request payload: {
   "files": [
     {
       "fileName": "sample_data.csv",
@@ -1665,7 +1624,7 @@
       ],
       "collapsed": true,
       "currentPage": 1,
-      "insights": "The table provides sales data with information on customer purchases, including product details, pricing, discounts, and geographical location.",
+      "insights": "The table provides sales transaction details including customer and product information, pricing, discounts, and promotional activity across various cities.",
       "statistics": {
         "missing_values": 14,
         "num_columns": 14,
@@ -1688,30 +1647,30 @@
         }
       },
       "prompt_suggestions": [
-        "Visualize the sales distribution across different product categories using a bar chart.",
-        "Plot the geographical distribution of sales using a map with longitude and latitude coordinates.",
-        "Analyze the impact of marketing promotions on sales volume using a comparative line or bar chart.",
-        "Create a scatter plot to examine the relationship between discount applied and the final amount for each sale.",
-        "Generate a time series line chart to observe sales trends throughout the date range provided."
+        "Visualize the distribution of product categories across different cities to examine regional preferences.",
+        "Create a time series analysis of sales amounts to identify trends and seasonal patterns.",
+        "Compare the effectiveness of marketing promotions by analyzing the average discount and corresponding sales amount in promoted vs. non-promoted transactions.",
+        "Generate a heatmap to display the geographic distribution of sales quantity based on latitude and longitude data.",
+        "Analyze the impact of discount percentages on the final sales amount to determine optimal discount strategies."
       ]
     }
   ],
-  "prompt": "Visualize the sales distribution across different product categories using a bar chart.",
+  "prompt": "Visualize the distribution of product categories across different cities to examine regional preferences.",
   "uuid": "5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa"
-} [Request ID: 87b08a23ccc0412ab26941282d1947b6]
-2024-12-08 06:58:26,074 - INFO - routes:290 - Retrieving credits for UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa [Request ID: a247c89a10b3420fab58b168fa9d3c78]
-2024-12-08 06:58:26,074 - DEBUG - database:47 - Executing query: SELECT available_credits FROM users WHERE uuid = %s | Params: ('5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa',) [Request ID: 82a3919d9e9548efa713e68944f36eb2]
-2024-12-08 06:58:26,274 - DEBUG - database:51 - Query result: [RealDictRow({'available_credits': 3922})] [Request ID: 77e4f904111c413b8339078a41228d69]
-2024-12-08 06:58:26,274 - INFO - routes:298 - User found. UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa, Available Credits: 3922 [Request ID: 7470d840d94c41c38ace5672d4dcb87a]
-2024-12-08 06:58:26,274 - INFO - routes:302 - Combining data from uploaded files. [Request ID: aeb04b2aaff748a69c41dfaebab13593]
-2024-12-08 06:58:26,274 - DEBUG - routes:305 - Processing file: None [Request ID: c841037f225d4d41aa70e747b219d416]
-2024-12-08 06:58:26,274 - DEBUG - routes:308 - Combined data size: 100 records [Request ID: 8dc85ae47785414a8227ab8d8aa170b1]
-2024-12-08 06:58:26,274 - INFO - routes:311 - Sending request to OpenAI for graph generation. Prompt: Visualize the sales distribution across different product categories using a bar chart. [Request ID: 7424ee046d3b4bb88257a49eeff3c24f]
-2024-12-08 06:58:30,399 - INFO - openai_helper:23 - Token count for the prompt: 14314 [Request ID: 8b52b323892d4cbd92c3033d6f90cfb0]
-2024-12-08 06:58:30,401 - INFO - openai_helper:202 - OpenAI graph or table generation completed successfully. Prompt cost: 143.14 [Request ID: ddf3e0feda044be2a658287553998828]
-2024-12-08 06:58:30,402 - DEBUG - routes:314 - OpenAI response: {"status":"success","graphs":[{"graph_json":{"data":[{"type":"bar","x":["Books","Home Decor","Electronics","Clothing"],"y":[4715.507464380001,5349.2853689199995,5512.681259169999,5362.715854540001],"marker":{"color":["#636EFA","#EF553B","#00CC96","#AB63FA"]},"name":"Sales Amount"}],"layout":{"title":"Sales Distribution Across Different Product Categories","xaxis":{"title":"Product Category"},"yaxis":{"title":"Sales Amount ($)"},"template":"plotly"}},"title":"Sales Distribution Across Different Product Categories","description":"Bar chart showing total sales amount for each product category."}],"suggestions":[]} [Request ID: f34036efc9444acba310bf3835075ef7]
-2024-12-08 06:58:30,402 - INFO - routes:321 - Parsing OpenAI response. [Request ID: c4d26ba54ce946159de0bb321da01506]
-2024-12-08 06:58:30,402 - INFO - routes:419 - Deducting credits. UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa, Used: 143.14, Remaining: 3778.86 [Request ID: 5ec34215a0f04882ba48cbf809ec5066]
-2024-12-08 06:58:30,402 - DEBUG - database:47 - Executing query: UPDATE users SET available_credits = %s WHERE uuid = %s | Params: (3778.86, '5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa') [Request ID: 5a12d49dfbdc405491571eeeb9483fdd]
-2024-12-08 06:58:30,604 - INFO - database:54 - Query executed successfully. [Request ID: a5146bce846548f39796aa434af2c015]
-2024-12-08 06:58:30,605 - INFO - routes:423 - Graph generation completed successfully for UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa [Request ID: fcccc2c332d94f22b0af69e1a585417b]
+} [Request ID: e4ef920e44e34c08822d35055014c4aa]
+2024-12-08 05:24:06,919 - INFO - routes:266 - Retrieving credits for UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa [Request ID: 65e8221cae30400880b32eb0dd428adf]
+2024-12-08 05:24:06,919 - DEBUG - database:47 - Executing query: SELECT available_credits FROM users WHERE uuid = %s | Params: ('5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa',) [Request ID: 7623ca5afe3141c6a6be79a4b119be79]
+2024-12-08 05:24:07,120 - DEBUG - database:51 - Query result: [RealDictRow({'available_credits': 4071})] [Request ID: 64a792e173a0437a925c73bcaa28ba56]
+2024-12-08 05:24:07,120 - INFO - routes:274 - User found. UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa, Available Credits: 4071 [Request ID: 2502b352de0b40b6ae04311b919263e4]
+2024-12-08 05:24:07,121 - INFO - routes:278 - Combining data from uploaded files. [Request ID: 0c4ca174e78a445097e6a91c9d1dcb40]
+2024-12-08 05:24:07,121 - DEBUG - routes:281 - Processing file: None [Request ID: 4953dc21ca0b44099077366a6c433cbe]
+2024-12-08 05:24:07,121 - DEBUG - routes:284 - Combined data size: 100 records [Request ID: bbdd3ce06e05429198840975d2c88ab3]
+2024-12-08 05:24:07,121 - INFO - routes:287 - Sending request to OpenAI for graph generation. Prompt: Visualize the distribution of product categories across different cities to examine regional preferences. [Request ID: 94b65bdbe5df43acba40aa64f99532e0]
+2024-12-08 05:24:36,875 - INFO - openai_helper:23 - Token count for the prompt: 14315 [Request ID: 55e092b1cfd949308dfda3c08949c142]
+2024-12-08 05:24:36,876 - INFO - openai_helper:202 - OpenAI graph or table generation completed successfully. Prompt cost: 143.15 [Request ID: 82553fb33f6e411aa5fac036581e3bb1]
+2024-12-08 05:24:36,877 - DEBUG - routes:290 - OpenAI response: {"status":"success","graphs":[{"graph_json":{"data":[{"type":"bar","x":["Digos","Digos","Valencia","Laoag","Canlaon","San Pablo","San Fernando (La Union)","La Carlota","Calbayog","Calamba","Maasin","Puerto Princesa","Lapu-Lapu","DasmariÃ±as","Dapitan","San Juan","Naga (Camarines Sur)","San Carlos (Negros Occidental)","Santa Rosa","Malolos","Pasay","Sipalay","Balanga","San Pablo","San Fernando (Pampanga)","Cotabato City","Lamitan","Marikina","Makati","Malaybalay","La Carlota","Calbayog","Lamitan","Bacolod","Toledo","General Santos","Bacolod","Muntinlupa","Masbate City","Marikina","Calamba","Quezon City","Trece Martires","Talisay (Negros Occidental)","Batangas City","Ozamiz","Dagupan","Panabo","Ilagan","Calapan","Mati","Baguio","Sagay","Malabon","Carcar","Calapan","Cabanatuan","Gapan","Isabela","Malolos","Toledo","San Jose","San Pedro","San Fernando (Pampanga)","Balanga","Ormoc","Calamba","Digos","Batangas City","Calamba","Meycauayan","Gingoog","Urdaneta","Ormoc","Pasig","Kabankalan","Silay","San Jose del Monte","Tanjay","Catbalogan","San Pablo","Maasin","Las PiÃ±as","Lapu-Lapu","Ozamiz","Quezon City","Mandaluyong","Palayan","Imus","Calbayog","Manila","Roxas","Olongapo","Angeles","Calbayog","Pasay","Tandag","Calapan","Angeles","ParaÃ±aque"],"y":[3,4,3,1,2,2,1,2,3,6,2,3,4,4,3,1,6,2,5,5,4,5,5,1,1,1,5,3,3,6,5,6,1,6,2,1,4,2,3,5,3,5,5,2,2,2,2,5,5,1,2,1,2,6,5,6,1,6,2,1,5,1,6,1,4,3,6,1,6,3,5,2,6,5,6,4,1,3,6,1,1,5,1,2,4,2,4,6,1,5,5,1,1,5],"name":"Books","hoverinfo":"x+y","marker":{"color":"#636EFA"}},{"type":"bar","x":["Digos","Digos","Valencia","Laoag","Canlaon","San Pablo","San Fernando (La Union)","La Carlota","Calbayog","Calamba","Maasin","Puerto Princesa","Lapu-Lapu","DasmariÃ±as","Dapitan","San Juan","Naga (Camarines Sur)","San Carlos (Negros Occidental)","Santa Rosa","Malolos","Pasay","Sipalay","Balanga","San Pablo","San Fernando (Pampanga)","Cotabato City","Lamitan","Marikina","Makati","Malaybalay","La Carlota","Calbayog","Lamitan","Bacolod","Toledo","General Santos","Bacolod","Muntinlupa","Masbate City","Marikina","Calamba","Quezon City","Trece Martires","Talisay (Negros Occidental)","Batangas City","Ozamiz","Dagupan","Panabo","Ilagan","Calapan","Mati","Baguio","Sagay","Malabon","Carcar","Calapan","Cabanatuan","Gapan","Isabela","Malolos","Toledo","San Jose","San Pedro","San Fernando (Pampanga)","Balanga","Ormoc","Calamba","Digos","Batangas City","Calamba","Meycauayan","Gingoog","Urdaneta","Ormoc","Pasig","Kabankalan","Silay","San Jose del Monte","Tanjay","Catbalogan","San Pablo","Maasin","Las PiÃ±as","Lapu-Lapu","Ozamiz","Quezon City","Mandaluyong","Palayan","Imus","Calbayog","Manila","Roxas","Olongapo","Angeles","Calbayog","Pasay","Tandag","Calapan","Angeles","ParaÃ±aque"],"y":[1,2,2,3,1,1,1,3,1,1,3,4,3,1,5,4,4,2,5,1,4,4,5,2,2,2,5,3,5,4,5,4,1,4,3,3,2,4,4,2,2,5,2,1,4,5,4,1,1,3,2,4,1,3,3,4,1,5,3,1,5,3,6,5,1,4,6,1,4,5,4,4,3,3,2,1,3,5,2,1,2,5,4,5,1,6,5,3,2,5,2,5,1,3,3,3],"name":"Clothing","hoverinfo":"x+y","marker":{"color":"#EF553B"}},{"type":"bar","x":["Digos","Digos","Valencia","Laoag","Canlaon","San Pablo","San Fernando (La Union)","La Carlota","Calbayog","Calamba","Maasin","Puerto Princesa","Lapu-Lapu","DasmariÃ±as","Dapitan","San Juan","Naga (Camarines Sur)","San Carlos (Negros Occidental)","Santa Rosa","Malolos","Pasay","Sipalay","Balanga","San Pablo","San Fernando (Pampanga)","Cotabato City","Lamitan","Marikina","Makati","Malaybalay","La Carlota","Calbayog","Lamitan","Bacolod","Toledo","General Santos","Bacolod","Muntinlupa","Masbate City","Marikina","Calamba","Quezon City","Trece Martires","Talisay (Negros Occidental)","Batangas City","Ozamiz","Dagupan","Panabo","Ilagan","Calapan","Mati","Baguio","Sagay","Malabon","Carcar","Calapan","Cabanatuan","Gapan","Isabela","Malolos","Toledo","San Jose","San Pedro","San Fernando (Pampanga)","Balanga","Ormoc","Calamba","Digos","Batangas City","Calamba","Meycauayan","Gingoog","Urdaneta","Ormoc","Pasig","Kabankalan","Silay","San Jose del Monte","Tanjay","Catbalogan","San Pablo","Maasin","Las PiÃ±as","Lapu-Lapu","Ozamiz","Quezon City","Mandaluyong","Palayan","Imus","Calbayog","Manila","Roxas","Olongapo","Angeles","Calbayog","Pasay","Tandag","Calapan","Angeles","ParaÃ±aque"],"y":[3,1,1,1,1,2,1,3,2,4,4,4,5,5,2,4,3,5,5,1,5,1,3,4,2,2,2,1,3,3,5,4,4,1,5,1,3,5,2,5,2,1,1,2,3,1,3,3,2,2,1,5,4,4,1,5,5,3,1,4,5,4,3,5,2,4,5,5,3,5,1,3,2,1,3,4,3,2,4,5,3,2,3,4,1,5,3,2,2,2,5,1,2,1,4,3],"name":"Electronics","hoverinfo":"x+y","marker":{"color":"#00CC96"}},{"type":"bar","x":["Digos","Digos","Valencia","Laoag","Canlaon","San Pablo","San Fernando (La Union)","La Carlota","Calbayog","Calamba","Maasin","Puerto Princesa","Lapu-Lapu","DasmariÃ±as","Dapitan","San Juan","Naga (Camarines Sur)","San Carlos (Negros Occidental)","Santa Rosa","Malolos","Pasay","Sipalay","Balanga","San Pablo","San Fernando (Pampanga)","Cotabato City","Lamitan","Marikina","Makati","Malaybalay","La Carlota","Calbayog","Lamitan","Bacolod","Toledo","General Santos","Bacolod","Muntinlupa","Masbate City","Marikina","Calamba","Quezon City","Trece Martires","Talisay (Negros Occidental)","Batangas City","Ozamiz","Dagupan","Panabo","Ilagan","Calapan","Mati","Baguio","Sagay","Malabon","Carcar","Calapan","Cabanatuan","Gapan","Isabela","Malolos","Toledo","San Jose","San Pedro","San Fernando (Pampanga)","Balanga","Ormoc","Calamba","Digos","Batangas City","Calamba","Meycauayan","Gingoog","Urdaneta","Ormoc","Pasig","Kabankalan","Silay","San Jose del Monte","Tanjay","Catbalogan","San Pablo","Maasin","Las PiÃ±as","Lapu-Lapu","Ozamiz","Quezon City","Mandaluyong","Palayan","Imus","Calbayog","Manila","Roxas","Olongapo","Angeles","Calbayog","Pasay","Tandag","Calapan","Angeles","ParaÃ±aque"],"y":[4,5,5,3,5,3,5,4,4,2,1,4,2,4,1,2,3,5,5,4,1,2,2,5,1,1,1,1,3,2,2,5,2,5,4,5,1,1,3,3,1,1,1,1,4,4,2,5,5,4,1,5,2,2,4,4,5,1,1,5,4,5,3,2,4,3,2,1,1,4,3,1,5,5,3,5,2,1,2,3,2,1,4,5,5,4,1,1,4,3,3,4,3,4,5,3],"name":"Home Decor","hoverinfo":"x+y","marker":{"color":"#AB63FA"}}],"layout":{"barmode":"stack","title":{"text":"Distribution of Product Categories by City"},"xaxis":{"title":"City"},"yaxis":{"title":"Quantity"},"template":"plotly_dark"}},"title":"Distribution of Product Categories by City","description":"This stacked bar chart visualizes product category distribution across cities to explore regional preferences."}],"suggestions":[]} [Request ID: 6fa012237e1c4bd9a7a77b55780fe710]
+2024-12-08 05:24:36,877 - INFO - routes:297 - Parsing OpenAI response. [Request ID: 3647fd75e5ff4c30bc101e0974492e8b]
+2024-12-08 05:24:36,878 - INFO - routes:395 - Deducting credits. UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa, Used: 143.15, Remaining: 3927.85 [Request ID: 5cc7720b034d4c41b7b2ab6ed5d6e3ff]
+2024-12-08 05:24:36,894 - DEBUG - database:47 - Executing query: UPDATE users SET available_credits = %s WHERE uuid = %s | Params: (3927.85, '5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa') [Request ID: c7e6ed8f7d474ad492c8c8a16200d677]
+2024-12-08 05:24:37,102 - INFO - database:54 - Query executed successfully. [Request ID: e5c6bdb4c63343d2b0681fadf0660aa5]
+2024-12-08 05:24:37,103 - INFO - routes:399 - Graph generation completed successfully for UUID: 5098efd1be151b97e04bbdfd8ca9db3b8315a484d187bcbd9c2b69ef5d22f7fa [Request ID: ec6ffd8982a643a583a35a1375a735c8]
