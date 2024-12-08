@@ -1,0 +1,36 @@
+{
+  "name": "datvizai",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^5.1.0",
+    "@fortawesome/fontawesome-free": "^6.7.1",
+    "@vuepic/vue-datepicker": "^10.0.0",
+    "axios": "^1.7.9",
+    "gapi-script": "^1.2.0",
+    "gsap": "^3.12.5",
+    "mdi-material-ui": "^7.9.2",
+    "plotly.js-dist": "^2.35.2",
+    "vue": "^3.5.13",
+    "vue-datepicker-next": "^1.0.3",
+    "vue-pagination-3": "^2.0.0-beta01",
+    "vue-router": "^4.5.0",
+    "vue3-paginate": "^1.0.2",
+    "vue3-pagination": "^1.0.16",
+    "vuetify": "^3.7.0-beta.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "vite": "^6.0.1",
+    "vite-plugin-vue-devtools": "^7.6.5"
+  }
+}
